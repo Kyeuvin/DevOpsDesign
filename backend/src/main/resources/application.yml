@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: jenkins-visual-platform
+
+jenkins:
+  url: http://8.153.202.59:9007
+  username: yzw
+  token: 11cf32d76f2898c4fc9dea8292faee46f6
+  timeout: 10000
+
+logging:
+  level:
+    root: INFO
+    com.jenkins.platform: DEBUG

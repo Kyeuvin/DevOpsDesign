@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: jenkins-visual-platform-test
+
+jenkins:
+  url: http://localhost:8080
+  username: test
+  token: test-token
+  timeout: 5000
+
+logging:
+  level:
+    root: INFO
+    com.jenkins.platform: DEBUG

@@ -1,0 +1,3 @@
+com\jenkins\platform\service\WebSocketService.class
+com\jenkins\platform\service\WebSocketService$BuildUpdate.class
+com\jenkins\platform\service\CodeService.class
