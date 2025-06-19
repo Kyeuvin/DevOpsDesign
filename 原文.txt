@@ -1,0 +1,459 @@
+5. Conceptual framework
+To advance a more refined definition of DevOps, we 
+first need to identify its conceptual elements, the sim￾plest and essential parts of the model. Next, we apply a 
+logical categorisation of these elements to clearly 
+define the categories of our model.
+556 M. GALL AND F. PIGNI
+To identify both the conceptual elements and their 
+logical categories proceeding with a three-step coding, 
+we started by open coding the studies included in this 
+review (step 9, Figure 1), thus generating our first￾order codes (Miles et al., 2021). Then, we applied 
+axial coding to develop the conceptual elements and 
+their relationship to the first-order codes (Miles et al., 
+2021). Finally, we used selective coding (Stol et al., 
+2016; Thomas, 2006) to identify the categorisation of 
+the conceptual elements. Details on the first-order 
+codes, the emerging conceptual elements and their 
+categories are reported in Appendix D. To link and 
+anchor the conceptual elements we identified in our 
+work with the existing heterogeneous DevOps con￾ceptualisations, we used selective coding (Stol et al., 
+2016; Thomas, 2006). As the existing conceptualisa￾tion is incomplete (see callouts in section 2.2 and 
+section 4.2), not all of our conceptual elements could 
+be related to the existing conceptualisation. This also 
+highlights that our model expands and completes the 
+existing conceptualisation of DevOps. Details on how 
+the existing heterogeneous conceptualisations 
+(Appendix H) are mapped to the conceptual elements 
+can be found in Appendix G.
+We identified three major categories (culture, auto￾mation and monitoring) and one lateral category 
+(continuous) that applies to each of the major cate￾gories. The lateral category affects and applies to all the 
+other categories in parallel (Vosniadou, 2013). The 
+continuous quality of the conceptual elements was 
+only applied to some of the heterogeneous conceptua￾lisations (see Appendix H, e.g., continuous deploy￾ment) but was never explicitly called out for other 
+conceptualisations in previous research; however, 
+this quality emerged [S11]–[S14] as a critical charac￾teristic of all the identified conceptual elements. 
+Therefore, we considered continuity to be reflected 
+in each of the conceptual elements rather than setting 
+it apart as a separate category. In the DevOps context, 
+each of the conceptual elements is applicable through￾out the software development lifecycle and needs to be 
+exercised on a continuous basis [S14], [S13]. This is 
+especially highlighted in the development and opera￾tional aspects of DevOps. Examples here are contin￾uous deployment [S13], [S63] and continuous testing 
+[S14], [S63]. However, the cultural aspects of DevOps, 
+such as continuous feedback loops or autonomy, also 
+need to be exerted on a continuous basis to achieve 
+quick decision making. From a monitoring perspec￾tive, continuity is also critical here. The system needs 
+to be monitored continuously so that error states of 
+the system can be detected before customers are 
+impacted [S43]. Additionally, teams use metrics to 
+continuously assess the quality of the system so that 
+they can iteratively improve the system [S66]. 
+Paralleling agile methods, the continuous quality of 
+DevOps encompasses the entire software lifecycle and 
+reflects an important characteristic of the team cul￾ture; continuous improvement is, again, a consistent 
+characteristic of the delivery and operation process 
+[S14]. More specifically, the focus of this lateral con￾ceptual element is on the continuity of the performed 
+activities rather than the speed at which they are 
+executed. We therefore define the following three 
+categories: continuous culture, continuous automa￾tion, and continuous monitoring.
+Each of these categories is composed of several 
+conceptual elements. We identified two key types of 
+conceptual elements: those describing “what” must be 
+achieved and the elements focusing on “how” some￾thing is done. This approach allows us to clearly define 
+what each category aims to accomplish and how that 
+goal can be achieved. We therefore structure the defi￾nition of each category as follows: (1) What is the 
+category? (2) What does it aim to accomplish? and 
+(3) How is the goal achieved? In the next section, we 
+discuss the association of each of the three emergent 
+categories.
+5.1. Continuous culture
+Previous conceptualisations of culture adopted narrow 
+definitions bound to the objective of the study, result￾ing in multiple and complementary conceptualisa￾tions. We advance that culture to include aspects 
+beyond the mere acceptance of a shared responsibility 
+[S3], [S39] and to include collaboration [S3] and the 
+commitment to continuous rapid cycles and feedback 
+[S11]. As mentioned in section 4.2, the identified 
+sources confuse the usage of culture as either a con￾ceptual element or a category. We discourage the use 
+of culture as a conceptual element and propose to 
+consider it as a category. Based on the semantic ana￾lysis, we identified the following conceptual elements 
+(Table 6).
+Collaboration involves redefining roles and teams 
+in development and operations activities [S43], [S64]. 
+This is the key conceptual element that defines the 
+necessary culture within the DevOps team. Both 
+developers and operations personnel collaborate to 
+resolve issues and deliver high-quality software [S3], 
+[S14], [S36]. The cultural change of accepting joint 
+responsibility for delivery of high-quality software to 
+the end user is achieved by breaking down the silos in 
+the organisation and fostering collaboration within the 
+teams [S3], [S36]. We discussed whether collaboration 
+should stand on its own as a category, but as indicated 
+by existing literature [S9], [S65], it is more a key 
+conceptual element that is anchored within the overall 
+culture of the DevOps team. Autonomy will enable the 
+joint DevOps team to develop shared goals that meet 
+both development and operational requirements 
+[S65]. Additionally, autonomy allows DevOps teams 
+to decide when and how to perform and complete 
+EUROPEAN JOURNAL OF INFORMATION SYSTEMS 557
+their activities [S45]. Among the team, this also fosters 
+end-to-end ownership of the process, complete con￾trol over infrastructure and deployment [S19] and a 
+sense of responsibility for the service which the team 
+members own [S48]. Furthermore, autonomy will give 
+the DevOps teams the freedom to experiment and 
+quickly evaluate whether a particular approach to a 
+problem works. This fosters a “start-up” culture within 
+the team [S35] and reflects on the cultural aspect of 
+DevOps; therefore, we associated it within this cate￾gory. DevOps emphasises communication as the 
+means to bridge the gap between the development 
+and operations teams [S65]. A constructive open com￾munication culture and environment allows teams to 
+effectively collaborate [S17]. There should be straight￾forward communication between teams [S9]. 
+Ticketing systems are an inappropriate means of com￾munication, whereas face-to-face communication 
+would be the best option [S9]. Other communication 
+tools such as Slack are also appropriate options [S9]. 
+Sharing ranges within various levels and exhibits dif￾ferent characteristics, from sharing knowledge, tools, 
+and infrastructure to success and feedback [S3], [S14], 
+[S35], [S36]. Sharing is one of the conceptual elements 
+that defines the culture within a DevOps team, bring￾ing the development and operations closer together 
+[S3], [S14]. Collaboration, autonomy, communica￾tion, and sharing can be described as the culture or 
+mindset within the DevOps team, enabling it to deliver 
+high-quality software [S19], and are therefore asso￾ciated within the same category. Compliance is the 
+capacity of the DevOps team to continuously satisfy 
+regulatory requirements during software development 
+[S14]. As we performed the coding of the selected 
+articles, we identified compliance to be more closely 
+aligned with the cultural aspect of DevOps than auto￾mation. Several tools [S1] assist in ensuring compli￾ance, but the mindset of shifting security [S52] and 
+compliance-related tasks left in the development pro￾cess [S25] lead to consideration of compliance as a 
+cultural conceptual element [S18]. Rapid continuous 
+feedback loops are critical in DevOps. Feedback is 
+provided on various levels [S63]. Examples here 
+range from continuous integration, allowing develo￾pers to rapidly obtain feedback on the quality of their 
+code [S45], to continuous planning, allowing the team 
+to adjust their backlog and respond to changing cus￾tomer needs [S63]. The most important cultural ele￾ment here is that the practice of gathering feedback 
+and quickly reacting to it is ingrained in the team 
+[S63]. As this is again a conceptual element that 
+defines how the team operates and which principles 
+it applies [S63], we have associated it within the con￾tinuous culture category. We identify a conceptual 
+element that remained implicit in the existing litera￾ture: the reduction of redundant tasks. When adopting 
+DevOps at a large scale throughout an organisation, 
+each of the individual teams of the organisation must 
+perform a series of the same or similar tasks. For 
+example, each team must set up the deployment pipe￾line to deliver the software. Redundant tasks can be 
+minimised by sharing the same tool sets and practices 
+[S24]. The shift left mindset, which mandates addres￾sing technical issues as they are first encountered and 
+addressing security, compliance and architectural 
+issues as early as possible in the software lifecycle 
+[S14], [S25], [S52], [S54], is another cultural aspect 
+of DevOps. Finally, fast decision making [S11], [S14] 
+is critical for teams to respond to either incidents or 
+changing requirements quickly and is enabled by the 
+autonomy and freedom [S14] given to the team. To 
+summarise, we define continuous culture as follows:
+Continuous culture is the shared vision and beha￾viour of the DevOps team that prioritises the solution 
+of issues as early as possible in the software develop￾ment and operation lifecycle. Continuous culture aims 
+to address tasks as far left in the lifecycle as possible to 
+achieve continuous compliance, reduce redundant 
+tasks, and enable fast decision making and continuous, 
+rapid feedback loops. These goals are achieved 
+Table 6. Conceptual elements for continuous culture.
+Conceptual 
+element Summary
+Nb of 
+studies3 Type
+Collaboration The need for both development 
+and operations staff to work 
+together for delivering the 
+service
+24 How
+Autonomy The freedom and flexibility teams 
+should be granted to make their 
+own decisions
+15 How
+Communication The key factor for bringing the 
+development and operational 
+teams together as one team.
+14 How
+Sharing The accessibility and diffusion of 
+knowledge, best practices, and 
+information within the team and 
+beyond
+13 How
+Compliance The rules and regulations both 
+internal and external to the 
+organisation for delivering 
+software within a particular 
+context.
+7 What
+Rapid 
+continuous 
+feedback 
+loops
+The expected goal achieved 
+through communication and the 
+adequate agility to quickly 
+respond to changes
+6 What
+Reduction of 
+redundant 
+tasks
+The expected benefit achieved by 
+sharing practices and tools across 
+multiple teams.
+4 What
+Shift left The mandate to address security, 
+compliance and architectural 
+issues as early as possible in a 
+project.
+4 What
+Fast decision 
+making
+The teams mandate to respond to 
+changes quickly. Considered 
+enabled by the autonomy given 
+to the team.
+3 What
+558 M. GALL AND F. PIGNI
+through autonomy, communication, collaboration 
+and the sharing of information and responsibilities 
+within the DevOps team.
+5.2. Continuous automation
+Thirty-five articles discuss conceptual elements that 
+refer to a critical conceptual category of DevOps that 
+we labelled continuous automation. These articles are 
+not to be confused with the 28 initially identified 
+articles (see Appendix H) that refer to heterogeneous 
+conceptualisation automation. Similar to the culture 
+discussion, we consider automation to be a category 
+that is composed of several conceptual elements. We 
+identified several sources that indirectly referred to 
+one or more conceptual elements in the automation 
+category. Automation ranges from tools introduced in 
+the initial deployment of the software [S12] to com￾prehensive automation efforts during all phases of the 
+development and operation of the software [S14]. 
+While most of the sources we reviewed consider auto￾mation to be a critical component of DevOps, only one 
+study reported it. We identified the following concep￾tual elements of continuous automation (Table 7).
+Automation also aims to reduce manual activities 
+and to replace them with predictable, scheduled tasks 
+[S38]. A key aspect of DevOps is the actual deploy￾ment of the software [S15], [S46]. Automating the 
+deployment process is critical to increasing deploy￾ment frequency [S17], allowing organisations to 
+release their software more frequently to address the 
+needs of their customers. Executing continuous tests 
+using automation is also pursued in all development 
+and operation environments [S14], [S17]. Automated 
+testing must be performed as close as possible to the 
+development activity [S14] but must not stop there. 
+Running tests in production provides an essential 
+indicator that the software is deployed and function￾ing correctly in the environment in which it will be 
+used by customers. Both deployment and tests have an 
+associated element of monitoring. Fine-grained 
+metrics (see section 5.3) are used to monitor these 
+activities. However, the actual automation of these 
+tasks is critical to achieving continuity within 
+DevOps and therefore is associated with the automa￾tion category [S49], [S63], [S65]. The achievement of 
+these objectives is heavily reliant on a toolset [S1], 
+[S59] that must be provided by the platform on 
+which the software is operated [S14]. These tools 
+must support continuous operation, deployment and 
+testing. The underlying software architecture is critical 
+for achieving continuous automation. For example, 
+microservice-based architectures enable effective 
+deployment and operation of the software [S39]. 
+Architectures with reduced dependencies and reduced 
+abstractions improve the operation and deployment of 
+the software [S6]. Architecting the software and build￾ing resiliency into the initial design enable DevOps 
+teams to optimise its operation [S42]. Architectural 
+changes are necessary as part of the transition to 
+DevOps. The operations required to run and maintain 
+the software are another critical conceptual element 
+[S14]. This conceptual element includes tasks such as 
+autoscaling5 in the production environment [S39] and 
+performing backup and restore operations. The pro￾cesses related to these operations need to be optimised 
+so that they can be executed repeatedly such that 
+excessive time is not required for the customer to 
+obtain a new version of the software [S19]. 
+Simplifying processes is critical to reducing manual 
+overhead [S45]. We included the conceptual element 
+related to processes in the automation category, as 
+automating the processes is a key success factor 
+when adopting DevOps [S45], [S63]. To communicate 
+changes and to fulfil compliance requirements, the 
+documentation of the system [S18] and the operations 
+related to deployment are critical [S63]. An often￾overlooked aspect is the actual automation of docu￾mentation-related tasks, such as automatically gener￾ating release notes [S18]. Expanding automation to 
+include documentation-related tasks helps to further 
+reduce manual tasks [S20]. To underline this impor￾tance, we associated the documentation conceptual 
+element with the continuous automation category. 
+The reduction of sporadic operations is another criti￾cal conceptual element. Sporadic operations often 
+have a system-wide impact and include several tech￾nological complexities [S46]. In reviewing the context 
+Table 7.. Conceptual elements for continuous automation.
+Conceptual 
+element Summary
+Nb of 
+studies4 Type
+Deployment The release of the software to 
+customers.
+25 What
+Test Testing activities must be performed 
+as close as possible to the 
+development activity and 
+executed continuously in 
+production as well.
+18 What
+Toolset The software and practices for 
+enabling the automatic execution 
+of deployment, test and other 
+operational tasks.
+17 How
+Architecture The design and interaction between 
+services enabling the system to 
+support continuous deployment, 
+operation and testing
+14 How
+Operations All the tasks and activities related to 
+running and operating the 
+system.
+11 What
+Processes The series of activities related to the 
+operations that need to be 
+optimised for efficient, repeated 
+execution.
+9 How
+Documentation The codified knowledge of both the 
+system and processes which 
+generation is to be automated to 
+further reduce manual tasks.
+6 What
+Reduce 
+sporadic 
+operations
+The goal achieved by enhancing 
+automation and replacement of 
+manual activities with continuous 
+automatically executed tasks.
+2 What
+EUROPEAN JOURNAL OF INFORMATION SYSTEMS 559
+in which sporadic operations are introduced in the 
+existing literature [S38], [S46], they are found to be 
+centred around enhancing automation to reduce 
+sporadic tasks rather than a cultural or team mindset 
+aspect; therefore, we have associated them with the 
+automation category. To summarise, we can define 
+continuous automation as:
+Continuous automation is the deployment, opera￾tion, documentation and testing (in production) of 
+software with minimal manual intervention. 
+Continuous automation aims to reduce the number 
+of sporadic and manual operations. These goals are 
+achieved via a microservice-based architecture, which 
+is a set of processes and tools provided by the platform 
+on which the software is operated.
+5.3. Continuous monitoring
+Two vague and overlapping definitions of continuous 
+monitoring are provided in the existing literature. 
+Measurement varies from monitoring business 
+metrics (e.g., revenue) to testing coverage [S14]. 
+Monitoring, an ongoing measurement activity to 
+assess the state of the software, begins in the develop￾ment phase [S59] and continues throughout the 
+deployment and operation of the software. As these 
+two categories are related (both measuring and mon￾itoring rely on metrics [S14], [S36], [S43], [S64]), we 
+combined them into a single category that we define as 
+follows: continuous monitoring is the gathering and 
+observation of metrics of the software throughout the 
+software development and operation lifecycle. Twelve 
+sources discuss conceptual elements related to contin￾uous monitoring, but unfortunately, none of the con￾ceptual elements that can be semantically linked with 
+this conceptual category are explicitly defined. Based 
+on the semantic analysis, we identified the following 
+conceptual elements belonging to the category of con￾tinuous monitoring (Table 8).
+Fine-grained metrics provide the basis of continu￾ous monitoring. These metrics are collected at a 
+detailed, context-dependent level [S66]. These metrics 
+can then be further aggregated to provide a higher￾level view of the software and its operation. With 
+DevOps, both development and operations are incen￾tivised and rewarded by the same metrics [S64]. 
+Continuous collection of metrics from both applica￾tions and infrastructure is critical within DevOps [S9], 
+[S38]. Existing sources distinguish between automa￾tion and monitoring; even though the metrics utilised 
+for monitoring are collected automatically [S19], 
+[S21], they still fall under the monitoring category 
+[S19], [S21], [S66], as they are the key conceptual 
+elements that enable the DevOps team to gain insights 
+into their service. Multiple metrics covering a range of 
+scenarios must be collected to assess the overall quality 
+of the service [S66]. Continuous monitoring ensures 
+that the quality of the service is as expected and within 
+the defined performance targets. The definition of the 
+scenarios that make up the service are a critical part of 
+DevOps. One reviewed source [S21] includes the qual￾ity of the service as a separate category. Analysing the 
+conceptual elements that are associated with this cate￾gory, a high overlap with other sources [S43], [S64] 
+that categorise the same conceptual elements as mon￾itoring is found; therefore, we associated them in our 
+model with the monitoring category rather than intro￾ducing a separate category. Incident response should 
+be automated and include both automatic detection 
+and, whenever possible, automatic mitigation [S66]. 
+Similar to the fine-grained metrics, the incident 
+response is automated; however, the primary aspect 
+is the quick response to issues rather than the tool set 
+that is utilised to achieve this. Conceptually, this con￾ceptual element aligns with the monitoring category 
+[S5], [S9], [S63]. Many sources neglected the multiple 
+roles played by the data gathered during continuous 
+monitoring, which could be used for analytical pur￾poses [S47]. The data gathered to ensure quality and 
+the quick diagnosis of incidents contain valuable 
+insights that DevOps teams can use to improve their 
+software [S47], [S66]. Insights in the existing literature 
+[S47], [S63], [S66] are categorised as results that are 
+achieved through monitoring. Transparency across 
+the organisation ensures visibility and alignment. 
+Some studies discuss transparency as a cultural aspect 
+of DevOps [S52]. As this is an important part of the 
+DevOps culture, it is also an important piece of what is 
+being achieved through continuous monitoring, and 
+therefore, we consider this conceptual element as part 
+of the monitoring category. This is also highlighted by 
+several other sources [S9], [S13]. An important way to 
+build transparency in the context of DevOps is to use 
+Table 8.. Conceptual elements for continuous monitoring.
+Conceptual 
+element Summary
+Nb of 
+studies6 Type
+Fine-grained 
+metrics
+Provide the basis of continuous 
+monitoring and are collected at a 
+detailed, context dependent level.
+13 How
+Quality of 
+service
+The set of measures defined and 
+monitored to assess that the system 
+is running within a well-defined set of 
+target metrics. .
+9 What
+Incident 
+response
+The activities involved in addressing 
+and mitigating an issue that should 
+be automated to allow the team to 
+quickly react.
+7 What
+Insight The information derived from the 
+recorded metrics.
+6 What
+Transparency The goal achieved by sharing fine 
+grained metrics across the service 
+and throughout the organisation
+6 What
+End-to-end correlation The 
+expected 
+benefit by 
+having a 
+multidimensional, enterprise-wide 
+view of the software.
+5 How
+560 M. GALL AND F. PIGNI
+metrics to visualise the performance of the software 
+and the organisation [S13]. When monitoring a system, an end-to-end correlation of the data provides a 
+multidimensional, enterprise-wide view of the software [S66], enabling DevOps teams to detect quality 
+issues across all applications and services [S66]. To 
+summarise, we can define continuous monitoring as:
+Continuous monitoring is the gathering and 
+observation of metrics throughout the lifecycle of software development and operation. Continuous monitoring aims to ensure the overall quality of the 
+software, rapid incident response, transparency and 
+insights into software usage. These goals are achieved 
+through the end-to-end correlation of a broad spectrum of context-specific fine-grained metrics.
+Figure 3 summarises the DevOps conceptual 
+framework.
